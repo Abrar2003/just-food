@@ -2,9 +2,10 @@ import React from "react";
 import {Link} from "react-router-dom"
 
 function Navbar() {
+    const mainColor = "#F56565";
   return (
     <div >
-      <nav style={{padding: ".5rem 1rem", backgroundColor: "#F56565"}} className="navbar navbar-expand-lg navbar-dark">
+      <nav style={{padding: ".5rem 1rem", backgroundColor: mainColor}} className="navbar navbar-expand-lg navbar-dark">
         <Link className="navbar-brand fs-2 fst-italic" to="/">
           JustFOOD
         </Link>
